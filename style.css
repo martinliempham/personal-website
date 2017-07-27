@@ -53,6 +53,10 @@ body.about {
     background-position: center top;
 }
 
+body.email {
+  text-align: center;
+}
+
 /*body.contact {
     background-size: 25%;
     background-repeat: no-repeat;
