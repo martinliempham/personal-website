@@ -11,6 +11,15 @@ h1 {
 }
 
 div h2 {
+    width: 20%;
+    float: left;
+    font-family: courier;
+    helvetica;
+    times;
+    "times new roman";
+}
+
+div h3 {
     width: 25%;
     float: left;
     font-family: courier;
@@ -26,71 +35,44 @@ body {
 }
 
 body.home {
-    background-image: url("file:///Users/martinpham/desktop/projects/day2/personal/snowboard.jpg");
+    background-image: url("./pics/snowboard.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
 
 body.career {
-    background-image: url("file:///Users/martinpham/desktop/projects/day2/personal/linkpic.jpg");
+    background-image: url("./pics/linkpic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
 }
 
 body.interests {
-    background-image: url("file:///Users/martinpham/desktop/projects/day2/personal/balloon.JPG");
+    background-image: url("./pics/balloon.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
 
 body.about {
-    background-image: url("file:///Users/martinpham/desktop/projects/day2/personal/MeKid.jpeg");
+    background-image: url("./pics/MeKid.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
 }
 
-body.email {
-  text-align: center;
-}
-
-/*body.contact {
-    background-size: 25%;
-    background-repeat: no-repeat;
-    float: left;*/
-    /*background-image: url("/Users/martinpham/Desktop/projects/instalogo.png");
-    background-image: url("/Users/martinpham/Desktop/projects/linklogo.png");
-    background-image: url("/Users/martinpham/Desktop/projects/twitterlogo.png");*/
-}
-
-/*#facebook {
-    background-image: url("/Users/martinpham/Desktop/projects/FBlogo.png");
-    background-repeat: no-repeat;
-    width: 175px;
-    height: auto;*/
-}
-
-/*#instagram {
-    background-image: url("/Users/martinpham/Desktop/projects/instalogo.png");
-    /*background-repeat: no-repeat;*/
-    /*width: 50px;*/
-    /*height: auto;*/
-}
-
-/*#twitter {
-    background-image: url("/Users/martinpham/Desktop/projects/twitterlogo.png");
-    background-repeat: no-repeat;
-    width: 175px;
-    height: auto;*/
-}
-
-/*#linkedin {
-    background-image: url("/Users/martinpham/Desktop/projects/linklogo.png");
-    background-repeat: no-repeat;
-    width: 175px;
-    height: auto;*/
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
 
 }
+
+.miniBio {
+    color: white;
+}
+
+   
